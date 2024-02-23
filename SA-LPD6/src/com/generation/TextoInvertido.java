@@ -1,3 +1,4 @@
+package com.generation;
 /*
 Instrucciones:
 Crear un programa en Java que realice lo siguiente:
@@ -12,8 +13,6 @@ Sugerencias:
 Puedes escribir tu código directamente en tu clase Main.
 Para ayudarte puedes desarrollar un algoritmo y el pseudocódigo.
 */
-
-package com.generation;
 
 import java.util.Scanner;
 
