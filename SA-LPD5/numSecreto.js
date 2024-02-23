@@ -26,23 +26,14 @@ function getInput() {
   }
 }
 
-function numSecreto(num) {
-  let numP = Math.floor(Math.random() * 100);
-  if (num !== numP) {
-    console.log(
-      "Ups, el número secreto es incorrecto. El número es: " +
-        numP +
-        ". Vuelve a intentarlo."
-    );
-    return true;
+let numeroS = Math.floor(Math.random() * 100) + 1;
+
+while (true) {
+  let adivinaN = getInput();
+  if (adivinaN !== numeroS) {
+    console.log("Ups, el número secreto es incorrecto. Vuelve a intentarlo.");
   } else {
-    console.log("Felicidades, adivinaste el número secreto");
+    console.log("¡Felicidades, adivinaste el número secreto!");
     return false;
   }
-}
-
-let num = getInput();
-
-while (numSecreto(num)) {
-  num = getInput();
 }
