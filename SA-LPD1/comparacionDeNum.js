@@ -1,5 +1,5 @@
-/*Instrucciones:
-
+/*
+Instrucciones:
 Crear un programa en Javascript que realice lo siguiente:
 Debe solicitar al usuario 3 números por prompt y guardarlos en sus respectivas variables.
 Debe analizar los números, identificar cual es el número mayor, el número del centro y el número menor.

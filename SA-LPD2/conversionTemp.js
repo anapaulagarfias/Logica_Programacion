@@ -1,5 +1,5 @@
-/*Instrucciones:
-
+/*
+Instrucciones:
 Crear un programa en Javascript que realice lo siguiente:
 Debe solicitar al usuario la temperatura en grados Celsius por prompt o por un input.
 Debe convertir la temperatura ingresada de grados Celsius a grados Fahrenheit y Kelvin
@@ -30,11 +30,11 @@ function getInput() {
     return Number(num);
   }
 }
-function convTemp(celsius) {
+function numTemp(celsius) {
   let fahrenheit = (celsius * 9) / 5 + 32;
   console.log(`La temperatura ${celsius}°C es igual a ${fahrenheit}°F`);
   let kelvin = celsius + 273.15;
   console.log(`La temperatura ${celsius}°C es igual a  ${kelvin} K`);
 }
 let num = getInput();
-convTemp(num);
+numTemp(num);
